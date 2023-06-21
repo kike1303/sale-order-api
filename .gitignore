@@ -1,0 +1,16 @@
+# Dependencies
+/node_modules
+
+# build
+/dist
+
+# Enviroments (I'm going to comment it, but it shouldn't be
+# .env 
+
+# Cache
+.vscode
+.idea
+
+# System files
+.DS_Store
+

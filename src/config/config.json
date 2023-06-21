@@ -1,0 +1,18 @@
+{
+    "development": {
+        "username": "username",
+        "password": "password",
+        "database": "sales_db",
+        "host": "db",
+        "dialect": "postgres"
+    },
+    "test": {
+        "username": "username",
+        "password": "password",
+        "database": "sales_db",
+        "host": "db",
+        "dialect": "sqlite",
+        "storage": ":memory:",
+        "logging": false
+    }
+}
