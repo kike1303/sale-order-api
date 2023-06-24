@@ -24,7 +24,7 @@ Esto levantará un servidor y creará la base de datos correspondiente.
 -   En otro terminal, parado en la dirección del proyecto, mientras el servidor está prendido, ejecuta:
 
 ```
-docker exec -it sales-order-api-container npx sequelize-cli db:migrate --config ./src/config/config.json
+docker exec -it sales-order-api-container npm run migrations
 ```
 
 Este comando hará la migración correspondiente para crear la tabla que usaremos con sus respectivas columnas.
